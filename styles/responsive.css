@@ -1,0 +1,26 @@
+@media screen and (max-width: 576px) {
+
+    .nav-content{
+        padding: 20px;
+    }
+
+    .banner-content{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .Fitness{
+        margin-left: 0;
+    }
+    
+    .menu{
+        display: block;
+        
+    }
+
+    .btn-content{
+        display: none;
+    }
+}
