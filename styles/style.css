@@ -7,10 +7,11 @@
     box-sizing: border-box;
   }
 
-
+body{
+    background-color: black;
+}
 
 .banner-content{
-    background-color: black;
     width: 100%;
     height: 1000px;
 }
@@ -157,7 +158,7 @@
     font-size: 13px;
     font-weight: 400;
     text-align: center; 
-    margin-left: 6px;       ;
+    margin-left: 6px ;
 }
 
 .banner-img{
@@ -201,4 +202,235 @@
     text-align: center;
     margin-left: 36px;
     margin-bottom: 0;
+}
+
+.habit-container{
+    width: 1200px;
+    height: 485px;
+    margin: 80px auto;
+}
+
+.habit-text-container{
+    text-align: center;
+}
+
+.habits-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.habits-description{
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+.habit-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 48px;
+    margin-left: 40px;
+}
+
+.habit-img{
+    border-radius: 90px;
+}
+
+.habit-image-title{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 17px;
+}
+
+.habit-img-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 13px;
+    padding-left: 28px;
+}
+
+.card-container{
+    display: flex;
+    margin: 0 300px;
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0.16);
+}
+
+.card-text-container{
+    width: 60%;
+    margin: 25px 55px;
+}
+.card-title{
+    color: white;
+    font-size: 2.70rem;
+    font-weight: 800;
+    margin-top: 37px;
+}
+
+.card-description{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: smaller;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.join-btn{
+    margin-left: 0;
+    margin-top: 12px;
+}
+
+.card-img-container{
+    width: 40%;
+    margin: 20px;
+}
+
+.card-img-container img{
+    width: 100%;
+    height: 100%;
+    border-radius:16px;
+}
+
+.team-container{
+    width: 1308px;
+    height: 640px;
+    margin: 100px auto;
+}
+
+
+.team-text-container{
+    text-align: center;
+}
+
+.team-title{
+    color: white;
+    font-size: 2.70rem;
+    font-weight: 800;
+}
+
+.team-description{
+    color: rgba(255, 255, 255, 0.45);
+    font-size: smaller;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.team-img-container{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: rgba(128, 128, 128, 0.22);
+}
+.first-team{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+
+.second-team{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.team-img{
+    width: 275px;
+    border-radius: 15px;
+    height: 260px;
+}
+
+.text-over-img-container{
+    position: absolute;
+    top: 76%;
+}
+
+.title-text-over-img{
+    color: white;
+    margin-left: 10px;
+}
+
+.description-text-over-img{
+    color: rgba(255, 255, 255, 0.45);
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: x-small;
+    font-weight: 200;
+}
+
+.footer-container{
+    margin-top: 170px;
+    background-color: rgba(128, 128, 128, 0.219);
+    width: 100%;
+    height: 500px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(252, 252, 252, 0.164);
+    width: 88%;
+    height: 70%;
+}
+
+.footer-title{
+    width: 50%;
+    height: 100%;
+    padding-left: 70px;
+}
+
+.footer{
+    font-size: 50px;
+    padding-top: 60px;
+}
+
+.fitness-description{
+    color: rgba(128, 128, 128, 0.411);
+    padding-top: 17px;
+    font-size: smaller;
+}
+
+.footer-description-container{
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.title{
+    color: white;
+}
+
+.first-footer-description{
+    padding-top: 60px;
+    width: 50%;
+    height: 100%;
+}
+
+.second-footer-description{
+    padding-top: 60px;
+    width: 50%;
+    height: 100%;
+}
+
+.footer-foot{
+    color: rgba(255, 255, 255, 0.199);
+    text-align: center;
+    margin-top: 50px;
 }
